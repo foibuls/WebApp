@@ -29,6 +29,11 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
+    compile('org.apache.tomcat.embed:tomcat-embed-jasper:8.0.47')
+    compile files('/Users/david/Desktop/javalib/junit-4.12.jar')
+    compile files('/Users/david/Desktop/javalib/stdlib-package.jar')
+    compile files('/Users/david/Desktop/javalib/stdlib.jar')
     testCompile("org.springframework.boot:spring-boot-starter-test")
+    providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 }
 
